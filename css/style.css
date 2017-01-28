@@ -1,0 +1,153 @@
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+p {
+    font-family: "Arial", Georgia, Serif;
+}
+
+.titulo {
+    font-family: "Curier", Helvetica, sans-serif;
+  /*  color: brown;*/
+}
+
+.slogan {
+    font-family: "Curier", Helvetica, sans-serif;
+    font-style: italic;
+    color: green;
+}
+
+i.material-icons{
+  display:inline-block;
+  float:center;
+  font-size:24px;
+  color: brown;
+}
+
+.container{
+  margin-top: 100;
+}
+
+.renglon{
+  background-color: #ffffff;
+  align: center;
+}
+
+.parallax-container{
+  position:relative;
+  overflow:hidden;
+  height:70%;
+}
+
+.parallax{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:-1
+}
+
+.parallax img{
+  max-width: 100%;
+  display:none;
+  position:absolute;
+  left:50%;
+  bottom:0;
+  min-width:100%;
+  min-height:100%;
+  -webkit-transform:translate3d(0, 0, 0);
+  transform:translate3d(0, 0, 0);
+  -webkit-transform:translateX(-50%);
+  transform:translateX(-50%)
+}
+
+.section2{
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  width: 230;
+  height: 230;
+}
+
+.imagen{
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.imagen transicion{
+  width: 300px;
+  height: 300px;
+  background: #f1f1f1;
+  transition: background 2s, height 3s;
+  transition-delay: 3s;
+}
+
+.imagen:hover{
+  background-color: #f1f1f1;
+  height: 300px;
+  width: 230px;
+  transform:  translate(10px, 10px);
+  color: #000000;
+}
+
+/* Home Page Carousel */
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 80px 0 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.carousel {
+  margin: 0px;
+  position: relative;
+}
+
+header.carousel {
+    height: 100%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th, td {
+    padding: 10px;
+}
