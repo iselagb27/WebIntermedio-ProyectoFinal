@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>J&M Boutique</title>
+  </head>
+
+  <body>
+
+  <!-- Menú navegación -->
+  <nav>
+    <div class="nav-wrapper black">
+      <!-- falta slogan-->
+      <a href="index.html" class="brand-logo"><img src="img/logo1.jpg" width="14%" height="14%"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="damas.html">Damas</a></li>
+        <li><a href="caballeros.html">Caballeros</a></li>
+        <li><a href="infantil.html">Infantil</a></li>
+        <li class="teal"><a href="accesorios.html">Accesorios</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="damas.html">Damas</a></li>
+        <li><a href="caballeros.html">Caballeros</a></li>
+        <li><a href="infantil.html">Infantil</a></li>
+        <li class="teal"><a href="accesorios.html">Accesorios</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- fin Menú navegación -->
+
+  <div class="container">
+    <div class="row">
+      <p class="accesorios">Además encontrarás accesorios a la moda para combinar con tu vestuario</p>
+    </div>
+
+    <div class="row">
+      <div class="carousel">
+        <a class="carousel-item" href="#"><img src="img/accesorio1.jpg"></a>
+        <a class="carousel-item" href="#"><img src="img/accesorio2.jpg"></a>
+        <a class="carousel-item" href="#"><img src="img/accesorio3.jpg"></a>
+        <a class="carousel-item" href="#"><img src="img/accesorio4.jpg"></a>
+        <a class="carousel-item" href="#"><img src="img/accesorio5.jpg"></a>
+        <a class="carousel-item" href="#"><img src="img/accesorio6.jpg"></a>
+        <a class="carousel-item" href="#"><img src="img/accesorio7.jpg"></a>
+        <a class="carousel-item" href="#"><img src="img/accesorio8.jpg"></a>
+        <a class="carousel-item" href="#"><img src="img/accesorio9.jpg"></a>
+        <a class="carousel-item" href="#"><img src="img/accesorio10.jpg"></a>
+        <a class="carousel-item" href="#"><img src="img/accesorio11.jpg"></a>
+        <a class="carousel-item" href="#"><img src="img/accesorio12.jpg"></a>
+
+      </div>
+    </div><!--fin row-->
+  </div><!--fin container-->
+
+  <!-- Footer -->
+  <div class="container">
+    <div class="row">
+
+      <footer class="piepagina">
+        <div class="col m6">
+            <div class="row">
+                <div class="col l12">
+                    <p>Copyright &copy; 2017 Isela Garcí­a Bravo</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="col m6">
+          <div class="col m6">
+            <p>Síguenos a través de:</p>
+          </div>
+          <div class="col m6">
+            <a href="https://www.facebook.com/isela.garcia.90813" target="_blank"><img src="img/facebook.jpg"></a>
+            <a href="https://twitter.com/ISELA_GB27" target="_blank"><img src="img/twitter.png"></a>
+            <a href="https://www.youtube.com/watch?v=ebHoH1AriL4" target="_blank"><img src="img/youtube.jpg" target="_blank"></a>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <!-- fin Footer -->
+
+
+
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <script type="text/javascript">
+
+    $(".button-collapse").sideNav();
+  </script>
+
+  <!-- Script to Activate the Parallax -->
+  <script>
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+  </script>
+
+</html>

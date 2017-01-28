@@ -1,20 +1,25 @@
 
-html,
-body {
+html,body {
     height: 100%;
-}
-
-body {
-    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 0px;
 }
 
 p {
-    font-family: "Arial", Georgia, Serif;
+    /*font-family: "Arial", Georgia, Serif;*/
+    font-family: "Lucida" Grande, sans-serif;
 }
 
-.titulo {
+.accesorios {
     font-family: "Curier", Helvetica, sans-serif;
-  /*  color: brown;*/
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #880e4f;
+}
+
+.registro{
+  background-color: #009688;
+  color: #ffffff;
 }
 
 .slogan {
@@ -27,7 +32,6 @@ i.material-icons{
   display:inline-block;
   float:center;
   font-size:24px;
-  color: brown;
 }
 
 .container{
@@ -37,41 +41,6 @@ i.material-icons{
 .renglon{
   background-color: #ffffff;
   align: center;
-}
-
-.parallax-container{
-  position:relative;
-  overflow:hidden;
-  height:70%;
-}
-
-.parallax{
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  z-index:-1
-}
-
-.parallax img{
-  max-width: 100%;
-  display:none;
-  position:absolute;
-  left:50%;
-  bottom:0;
-  min-width:100%;
-  min-height:100%;
-  -webkit-transform:translate3d(0, 0, 0);
-  transform:translate3d(0, 0, 0);
-  -webkit-transform:translateX(-50%);
-  transform:translateX(-50%)
-}
-
-.section2{
-  width: 100%;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
 img{
@@ -121,33 +90,10 @@ img{
   position: relative;
 }
 
-header.carousel {
-    height: 100%;
-}
-
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner {
-    height: 100%;
-}
-
-header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-footer {
-    margin: 20px 0;
-}
-
-table, th, td {
-    border: 0px solid black;
-    border-collapse: collapse;
-    font-size: 12px;
-}
-
-th, td {
-    padding: 10px;
+.piepagina{
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: #009688;
 }
